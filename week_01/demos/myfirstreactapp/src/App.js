@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+// dit zien we, als je hier iets aanpast wordt het aangepast in de browser
 function App() {
   return (
+    // dit is jsx
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
